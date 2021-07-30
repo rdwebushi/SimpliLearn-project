@@ -50,8 +50,8 @@ h1{
             
             .blog_container p{
                     Padding:1em;
-                    float:right;
-                    margin:0 30px 0 0;
+                    float:left;
+                    margin:auto;
             }
     #name{
         background-color: rgb(248, 233, 145,0.2);
@@ -60,33 +60,43 @@ h1{
         margin-top: 30px;
         font-size: 20px; 
         padding: 5px;
+      
+    }
+
+    #button{
+        background-color: rgb(247, 218, 164,0.5);
+        width: 200px;
+        margin-left: 50px;
+                border-radius: 2px;
     }
    
     #ta{
        font-size: 20px;
         width: 95%;
         height: 150px;
-        margin: 20px;
+        margin : 20px;
         background-color: rgb(248, 233, 145,0.2);
     } b{ margin-left: 10px; }
-    #blogg{
+    #blogg p{
         background-image: ;
         border: solid 0.5px;
         text-align: center;
         border-color: brown;
         float:right;
-        width: 95%;
+        width: 90%;
         height: auto;
         margin: 20px;
         padding: 10px;
             background-color: rgb(248, 233, 145,0.2);
         }
+       
+           
 
 
-        .myClass{
-            background-color: rgba(247, 245, 160, 0.534);
-            border: rgba(255, 0, 0, 0.068) solid 1px;
-        }
+        /* .myClass{ */
+            /* background-color: rgba(247, 245, 160, 0.534); */
+            /* border: rgba(255, 0, 0, 0.068) solid 1px; */
+        /* } */
         
         .myClass1{
             background-color:seagreen;
